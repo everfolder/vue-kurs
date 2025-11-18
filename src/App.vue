@@ -16,7 +16,7 @@ import Header from './components/Header.vue'
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
   html{
     padding: 0;
     margin: 0;
