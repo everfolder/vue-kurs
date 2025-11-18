@@ -53,8 +53,11 @@ export default defineComponent({
 
     &__logo{
       display: inline-flex;
+      align-items: center;
+      gap: 5px;
 
       &__name{
+        font-family: "Montserrat", sans-serif;
         &-main{
           font-size: 1.3125rem;
           color: blue;
@@ -62,7 +65,7 @@ export default defineComponent({
         &-desc{
           color: blue;
           font-size: 0.875rem;
-          letter-spacing: 1.5px;
+          letter-spacing: 0.8px;
         }
       }
     }
