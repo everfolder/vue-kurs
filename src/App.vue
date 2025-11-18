@@ -1,8 +1,10 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 </script>
 
 <template>
+  <Header></Header>
   <div>
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -14,10 +16,10 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .logo {
   height: 6em;
-  padding: 1.5em;
+  //padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
