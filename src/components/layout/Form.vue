@@ -18,7 +18,7 @@
       display: flex;
       flex-direction: column;
       gap: 1.25rem;
-      color: $main-gray-text;
+      color: var(--main-gray-text);
 
       &-email{
         background-color: transparent;
@@ -26,7 +26,7 @@
         box-sizing: border-box;
         font-size: 1.5rem;
         border-radius: 8px;
-        border: 2px solid $light-background;
+        border: 2px solid var(--light-background);
         width: 23.8125rem;
         padding: 0.625rem;
       }
@@ -37,7 +37,7 @@
         text-align: start;
         font-size: 1.5rem;
         border-radius: 8px;
-        border: 2px solid $light-background;
+        border: 2px solid var(--light-background);
         height: 15rem;
         width: 38.6875rem;
         padding: 0.625rem;

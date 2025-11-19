@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   margin: 2.75rem 0 2rem 0;
-  background-color: $light-background;
+  background-color: var(--light-background);
   background-image: url("@/assets/pictures/PreviewBack.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -79,7 +79,7 @@
     padding: 1.25rem;
 
     &-text{
-      color: $main-placeholder;
+      color: var(--main-placeholder);
       &__text{
         font-family: "MontserratSemi", sans-serif;
         font-size: 0.825rem;
@@ -99,7 +99,7 @@
     padding: 1.25rem;
 
     &-text{
-      color: $main-placeholder;
+      color: var(--main-placeholder);
       &__text{
         font-family: "MontserratSemi", sans-serif;
         font-size: 0.825rem;

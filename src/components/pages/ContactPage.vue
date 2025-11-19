@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
   import Button from "@/components/layout/Button.vue"
   import Form from "@/components/layout/Form.vue"
 </script>
@@ -53,11 +53,11 @@
   .c-content{
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    color: $main-gray-text;
+    color: var(--main-gray-text);
     border-radius: 8px;
     padding: 20px;
     margin-top: 2rem;
-    background-color: $white-background;
+    background-color: var(--white-background);
     transition: all 0.3s ease;
 
     &__title{
@@ -74,7 +74,7 @@
       margin: 1.25rem 0 1.25rem 0;
       width: 100%;
       height: 1px;
-      background-color: $dark-background;
+      background-color: var(--dark-background);
     }
     &__address{
       width: 100%;
@@ -87,7 +87,7 @@
         width: 100%;
         gap: 2rem;
         font-family: "Montserrat", sans-serif;
-        color: $main-gray-text;
+        color: var(--main-gray-text);
         font-size: 1.5rem;
 
         &__text{

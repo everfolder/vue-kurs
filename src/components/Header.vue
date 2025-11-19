@@ -221,7 +221,7 @@ export default defineComponent({
   position: absolute;
   top: 100%;
   left: 0;
-  background: $white-background;
+  background: var(--white-background);
   border: 1px solid #ddd;
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -241,7 +241,7 @@ export default defineComponent({
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  color: $main-gray-text;
+  color: var(--main-gray-text);
   border-bottom: 1px solid #f0f0f0;
 }
 
@@ -255,13 +255,13 @@ export default defineComponent({
 
 a{
   text-decoration: none;
-  color: $main-gray-text;
+  color: var(--main-gray-text);
 }
 .header {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   border-radius: 8px;
-  background-color: $white-background;
+  background-color: var(--white-background);
   padding: 11px 20px;
   box-sizing: border-box;
   min-width: 1298px;
@@ -280,7 +280,7 @@ a{
     gap: 5px;
 
     &__name {
-      color: $main-gray-text;
+      color: var(--main-gray-text);
       &-main { font-size: 1.3125rem; }
       &-desc { font-size: 0.875rem; letter-spacing: 0.8px; }
     }
@@ -296,9 +296,9 @@ a{
     display: inline-flex;
     align-items: center;
     font-size: 1rem;
-    color: $main-gray-text;
+    color: var(--main-gray-text);
     gap: 25px;
-    background-color: $light-background;
+    background-color: var(--light-background);
     padding: 10px;
     transition: all 0.3s ease;
   }
@@ -314,10 +314,10 @@ a{
       box-sizing: border-box;
       width: 100%;
       height: 50px;
-      color: $main-placeholder;
+      color: var(--main-placeholder);
       font-family: "Montserrat", sans-serif;
       padding: 0.5rem 2.5rem 0.5rem 1rem;
-      border: 2px solid $light-background;
+      border: 2px solid var(--light-background);
       border-radius: 8px;
       font-size: 1rem;
       transition: width 0.3s ease;
@@ -364,8 +364,8 @@ a{
     padding: 1.25rem;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    color: $main-gray-text;
-    background-color: $white-background;
+    color: var(--main-gray-text);
+    background-color: var(--white-background);
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -391,7 +391,7 @@ a{
       margin: 1.25rem 0 1.25rem 0;
       height: 1px;
       width: 100%;
-      background-color: $dark-background;
+      background-color: var(--dark-background);
     }
     &__footer-links{
       display: flex;

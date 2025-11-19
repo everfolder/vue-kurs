@@ -25,21 +25,21 @@
       id: 2,
       img: BlueNight,
       price: "390 ₽",
-      littleTitle: "Натуральный яблочный чай",
+      littleTitle: "Масляная картина “Синий вечер”",
       status: 2
     },
     {
       id: 3,
       img: AppleTea,
       price: "390 ₽",
-      littleTitle: "Натуральный вишнёвый чай",
+      littleTitle: "Натуральный яблочный чай",
       status: 2
     },
     {
       id: 4,
       img: CherryTea,
       price: "6 750 ₽",
-      littleTitle: "Обложка на паспорт “Fallout Убежище 13” из м...",
+      littleTitle: "Натуральный вишневый чай",
       status: 1
     },
     {
@@ -128,7 +128,7 @@
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     padding: 1.25rem;
-    background-color: $white-background;
+    background-color: var(--white-background);
     transition: width 0.3s ease;
 
     &__status-filter{
@@ -168,7 +168,7 @@
       padding: 0.3125rem 0.625rem 0.3125rem 0.625rem ;
       border: none;
       border-radius: 5px;
-      background-color: $orange-background;
+      background-color: var(--orange-background);
     }
   }
 

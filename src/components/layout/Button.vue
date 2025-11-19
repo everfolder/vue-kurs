@@ -20,7 +20,7 @@
     height: 1.875rem;
     width: 12.25rem;
     border: none;
-    background-color: $orange-background;
+    background-color: var(--orange-background);
     box-sizing: border-box;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;

@@ -59,7 +59,7 @@
   .i-content{
     display: flex;
     flex-direction: column;
-    background-color: $white-background;
+    background-color: var(--white-background);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 13.125rem;
     border-radius: 8px;
@@ -109,7 +109,7 @@
         padding: 0.3125rem 0.625rem 0.3125rem 0.625rem ;
         border: none;
         border-radius: 5px;
-        background-color: $orange-background;
+        background-color: var(--orange-background);
       }
     }
   }

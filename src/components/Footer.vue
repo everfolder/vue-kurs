@@ -116,7 +116,7 @@
 
   a{
     text-decoration: none;
-    color: $main-gray-text;
+    color: var(--main-gray-text);
   }
 
   footer{
@@ -124,11 +124,11 @@
     box-sizing: border-box;
     padding: 1.25rem;
     font-family: "Montserrat", sans-serif;
-    color: $main-gray-text;
+    color: var(--main-gray-text);
     border-radius: 8px;
     margin-top: 1.9375rem;
     width: 100%;
-    background-color: $white-background;
+    background-color: var(--white-background);
     transition: width 0.3s ease;
   }
   ul{

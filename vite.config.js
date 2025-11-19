@@ -14,7 +14,6 @@ export default defineConfig({
       scss: {
         additionalData: `
         @use "@/styles" as *;
-        @use "@/styles/abstracts/variables.scss" as *;
         `
       }
     }

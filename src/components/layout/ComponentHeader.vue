@@ -26,6 +26,6 @@ const props = defineProps({
 .text {
   margin-top: 4px;
   font-size: 1rem;
-  color: $main-gray-text;
+  color: var(--main-gray-text);
 }
 </style>

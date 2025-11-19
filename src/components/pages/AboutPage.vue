@@ -50,7 +50,7 @@
 
 <style scoped lang="scss">
   .a-container{
-    color: $main-gray-text ;
+    color: var(--main-gray-text) ;
     transition: all 0.3s ease;
 
     &__history{
@@ -61,9 +61,9 @@
       align-items: center;
       justify-content: center;
       box-sizing: border-box;
-      color: $white-background;
+      color: var(--white-background);
       border-radius: 8px;
-      background-color: $dark-background;
+      background-color: var(--dark-background);
       transition: all 0.3s ease;
 
       &-title{
@@ -82,7 +82,7 @@
     }
 
     &__mission{
-      background-color: $white-toBlack-color;
+      background-color: var(--white-toBlack-color);
       display: flex;
       justify-content: center;
       height: 69px;
@@ -112,7 +112,7 @@
         max-width: 51.3125rem;
         display: flex;
         flex-direction: column;
-        color: $main-gray-text ;
+        color: var(--main-gray-text) ;
         font-family: "Montserrat", sans-serif;
         font-size: 1rem;
         gap: 0.9375rem;

@@ -59,13 +59,13 @@ const products = [
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
   padding: 1.25rem;
-  background-color: $white-background;
+  background-color: var(--white-background);
   transition: width 0.3s ease;
 
   &__line{
     height: 1px;
     width: 100%;
-    background-color: $dark-background;
+    background-color: var(--dark-background);
     margin: 20px 0 20px 0;
   }
 
@@ -105,7 +105,7 @@ const products = [
     padding: 0.3125rem 0.625rem 0.3125rem 0.625rem ;
     border: none;
     border-radius: 5px;
-    background-color: $orange-background;
+    background-color: var(--orange-background);
   }
 }
 

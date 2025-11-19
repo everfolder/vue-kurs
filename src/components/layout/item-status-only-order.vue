@@ -13,8 +13,8 @@
     box-sizing: border-box;
     width: 8.5rem;
     border-radius: 5px;
-    background-color: $light-background;
-    color: $main-gray-text;
+    background-color: var(--light-background);
+    color: var(--main-gray-text);
     font-size: 0.75rem;
     font-family: "Montserrat", sans-serif;
     padding: 2px 3px 2px 3px
