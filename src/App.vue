@@ -3,9 +3,9 @@ import Header from '@/components/Header.vue'
 import MainScreen from '@/components/pages/Main-screen.vue'
 import Footer from '@/components/Footer.vue'
 
-// const toggleTheme = () => {
-//   document.documentElement.classList.toggle('dark-theme')
-// }
+const toggleTheme = () => {
+  document.documentElement.classList.toggle('dark-theme')
+}
 </script>
 
 <template>
