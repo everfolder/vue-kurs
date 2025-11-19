@@ -17,13 +17,13 @@ const routes = [
         component: AboutPage
     },
     {
-        path: '/',
-        name: 'login',
+        path: '/contact',
+        name: 'cta',
         component: ContactPage
     },
     {
-        path: '/login',
-        name: 'login',
+        path: '/heart',
+        name: 'heart',
         component: HeartPage
     }
 ]

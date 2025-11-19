@@ -1,6 +1,7 @@
 <script setup>
 import CellImgBlock from '@/components/layout/Cell-img-block.vue'
 import Catalog from '@/components/layout/MainScreenCatalog.vue'
+import HeroBanner from "@/components/layout/HeroBanner.vue";
 
 import img1 from '@/assets/pictures/img1.png'
 import img2 from '@/assets/pictures/img2.png'
@@ -12,6 +13,7 @@ const imageList = [img1, img2, img3, img4]
 
 <template>
   <div class="content">
+    <HeroBanner />
     <CellImgBlock :images="imageList" />
     <Catalog />
   </div>
