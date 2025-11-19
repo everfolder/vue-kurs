@@ -17,6 +17,7 @@
 
 <style scoped lang="scss">
 .a-container__preview{
+  color: var(--main-gray-text);
   border-radius: 8px;
   box-sizing: border-box;
   display: flex;

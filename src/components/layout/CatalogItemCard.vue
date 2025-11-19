@@ -57,6 +57,7 @@
 
 <style lang="scss" scoped>
   .i-content{
+    color: var(--main-gray-text);
     display: flex;
     flex-direction: column;
     background-color: var(--white-background);
@@ -70,7 +71,7 @@
       &__heart{
         position: absolute;
         top: 11px;
-        right: 11px; // чтобы было в верхнем правом углу
+        right: 11px;
         z-index: 2;
       }
       &__img{
@@ -110,6 +111,22 @@
         border: none;
         border-radius: 5px;
         background-color: var(--orange-background);
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background-color: var(--orange-background-hover);
+        }
+
+        &:active {
+          background-color: var(--orange-background-active);
+          transform: scale(0.98);
+        }
+
+        &:focus {
+          outline: 2px solid var(--orange-background-focus);
+          outline-offset: 2px;
+        }
       }
     }
   }
