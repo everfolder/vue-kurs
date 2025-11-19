@@ -15,7 +15,7 @@ const toggleTheme = () => {
       <main class="main-content">
         <router-view />
       </main>
-<!--      <button @click="toggleTheme">Toggle Theme</button>-->
+      <button @click="toggleTheme">Toggle Theme</button>
       <Footer />
     </div>
   </div>
