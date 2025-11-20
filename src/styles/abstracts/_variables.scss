@@ -13,22 +13,28 @@
   --main-background-project: #F0EEF0;
   --white-background: #ffffff;
   --white-toBlack-color: #ffffff;
-  --background-available: #b1e7b9;
+  --bg-available: #b1e7b9;
   --main-placeholder: #2E343D;
   --main-gray-text: #2E343D;
   --orange-background: #D37A4A;
   --light-background: #F5F0E1;
   --dark-background: #7B5537;
+  --item-card-bg: #ffffff;
+  --dark-button: #F5F0E1;
+  --light-color-for-theme: #2E343D;
 }
 
 .dark-theme {
   --main-background-project: #1d1d1d;
   --white-background: #2b2b2b;
   --white-toBlack-color: #000000;
-  --background-available: #8fd5a7;
+  --bg-available: #2d4c3b;
   --main-placeholder: #cfcfcf;
   --main-gray-text: #cfcfcf;
   --orange-background: #b56233;
   --light-background: #3b2d21;
   --dark-background: #1a120e;
+  --item-card-bg: #4B4B4B;
+  --dark-button: #cfcfcf;
+  --light-color-for-theme: #2E343D;
 }

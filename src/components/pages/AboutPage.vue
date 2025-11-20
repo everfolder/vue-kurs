@@ -61,7 +61,7 @@
       align-items: center;
       justify-content: center;
       box-sizing: border-box;
-      color: var(--white-background);
+      color: var(--main-gray-text);
       border-radius: 8px;
       background-color: var(--dark-background);
       transition: all 0.3s ease;

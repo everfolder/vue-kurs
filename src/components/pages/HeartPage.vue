@@ -44,15 +44,11 @@ const products = [
       />
     </div>
   </div>
-  <div class="show-more">
-    <button class="show-more__btn">
-      Показать ещё
-    </button>
-  </div>
 </template>
 
 <style lang="scss" scoped>
 .content{
+  margin-bottom: 100px;
   box-sizing: border-box;
   max-width: 81.125rem;
   margin-top: 2.1875rem;
@@ -70,6 +66,7 @@ const products = [
   }
 
   &__status-filter{
+    color: var(--main-gray-text);
     width: 100%;
     display: flex;
     justify-content: space-between;

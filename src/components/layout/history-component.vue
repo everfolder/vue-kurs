@@ -30,7 +30,7 @@
     flex-direction: column;
     justify-content: center;
     font-family: "Montserrat", sans-serif;
-    color: var(--white-toBlack-color);
+    color: var(--main-gray-text);
 
     &__title{
       font-size: 5.3125rem;

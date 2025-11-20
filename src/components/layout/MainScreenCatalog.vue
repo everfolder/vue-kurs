@@ -132,6 +132,7 @@
     transition: width 0.3s ease;
 
     &__status-filter{
+      color: var(--main-gray-text);
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -153,11 +154,12 @@
       flex-wrap: wrap;
     }
   }
-  .show-more{
+  .show-more {
     width: 100%;
     display: flex;
     justify-content: center;
-    &__btn{
+
+    &__btn {
       margin-top: 1.25rem;
       color: white;
       font-size: 1rem;
@@ -165,10 +167,26 @@
       text-align: center;
       width: 100%;
       max-width: 12.25rem;
-      padding: 0.3125rem 0.625rem 0.3125rem 0.625rem ;
+      padding: 0.3125rem 0.625rem;
       border: none;
       border-radius: 5px;
       background-color: var(--orange-background);
+      cursor: pointer;
+      transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+
+      &:hover {
+        background-color: var(--orange-background-hover);
+      }
+
+      &:active {
+        background-color: var(--orange-background-active);
+        transform: scale(0.98);
+      }
+
+      &:focus {
+        outline: 2px solid var(--orange-background-focus);
+        outline-offset: 2px;
+      }
     }
   }
 

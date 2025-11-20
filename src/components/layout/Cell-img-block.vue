@@ -10,13 +10,21 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="images-block">
-    <img
-        v-for="(img, i) in props.images"
-        :key="i"
-        :src="img"
-        class="image"
-    >
+  <div class="images-block-over">
+    <div class="images-block-over__img">
+      <img
+          v-for="(img, i) in props.images"
+          :key="i"
+          :src="img"
+          class="image"
+      >
+      <img
+          v-for="(img, i) in props.images"
+          :key="i"
+          :src="img"
+          class="image"
+      >
+    </div>
   </div>
 </template>
 
@@ -24,19 +32,37 @@ const props = defineProps({
   img{
     width: 18.75rem;
   }
-  .images-block{
+  .images-block-over{
     margin-top: 2.1875rem;
     width: 1298px;
     display: flex;
     justify-content: space-between;
     transition: all 0.3s ease;
+    overflow-inline: hidden;
+
+    &__img{
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+
+      animation: scroll infinite 40s;
+      @keyframes scroll {
+        from{
+          transform: translatex(0);
+        }
+        to{
+          transform: translateX(-50%);
+        }
+      }
+    }
+
   }
 
   @media (max-width: 1298px) {
     img{
       width: 250px;
     }
-    .images-block{
+    .images-block-over{
       width: 1024px;
     }
   }
@@ -45,7 +71,7 @@ const props = defineProps({
     img{
       width: 200px;
     }
-    .images-block{
+    .images-block-over{
       margin-top: 1.0625rem;
       width: 856px;
     }
@@ -55,13 +81,13 @@ const props = defineProps({
     img{
       width: 175px;
     }
-    .images-block{
+    .images-block-over{
       width: 768px;
     }
   }
 
   @media (max-width: 768px) {
-    .images-block{
+    .images-block-over{
       display: none;
     }
   }

@@ -12,10 +12,10 @@ const toggleTheme = () => {
   <div class="app">
     <div class="container">
       <Header />
+      <button class="btn-theme" @click="toggleTheme">Изменить тему</button>
       <main class="main-content">
         <router-view />
       </main>
-      <button @click="toggleTheme">Toggle Theme</button>
       <Footer />
     </div>
   </div>
@@ -51,5 +51,44 @@ const toggleTheme = () => {
       outline: 2px solid var(--main-gray-text-focus, #5a5f69); // видимая подсветка
       outline-offset: 2px;
     }
+  }
+
+  .btn-theme{
+    margin-top: -15px;
+    height: 15px;
+    width: 1298px;
+    border: 0 1px 1px 1px solid var(--light-background);
+    background-color: var(--dark-button);
+    border-radius: 0 0 50px 50px;
+    color: var(--light-color-for-theme);
+  }
+  @media (max-width: 1298px) {
+    .btn-theme{
+      width: 1024px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .btn-theme{
+      width: 856px;
+    };
+  }
+
+  @media (max-width: 856px) {
+    .btn-theme{
+      width: 768px;
+    };
+  }
+
+  @media (max-width: 768px) {
+    .btn-theme{
+      width: 420px;
+    };
+  }
+
+  @media (max-width: 440px) {
+    .btn-theme{
+      width: 390px;
+    };
   }
 </style>

@@ -1,4 +1,4 @@
-<script setup lang="js">
+<script setup lang="ts">
 
 </script>
 
@@ -14,7 +14,7 @@
     box-sizing: border-box;
     width: 8.5rem;
     border-radius: 5px;
-    background-color: var(--background-available);
+    background-color: var(--bg-available) !important;
     color: var(--main-gray-text);
     font-size: 0.75rem;
     font-family: "Montserrat", sans-serif;
